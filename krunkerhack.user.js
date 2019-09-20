@@ -613,9 +613,5 @@ function patchedScript(script) {
     document.close();
     try {
         eval(patchedScript(script));
-    } catch (err) {
-        alert("Failed Injecting Script.'OK' to ReLoad.");
-        location.reload();
-    }
     console.log('Successfully loaded Krunker Hero!');
 })();
